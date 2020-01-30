@@ -1,6 +1,4 @@
 import React from "react";
-// import NavBar from "../components/Navbar";
-// import Footer from "./Footer";
 import "../styles/Price.css";
 
 function Pricing() {

@@ -1,0 +1,29 @@
+.container_footer {
+    margin-top: 1em;
+    background-color: #333333;
+}
+
+.ul_footer {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+    /* margin-right: 50px; */
+}
+
+.li_footer {
+    margin: 20px 20px;
+    display: inline-block;
+    width: auto;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #5f5f5f;
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+}
+
+.li_footer:hover {
+    color: black;
+}

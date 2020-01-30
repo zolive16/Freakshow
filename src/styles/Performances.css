@@ -1,0 +1,26 @@
+.bloc_perf {
+    display: flex;
+    align-items: center;
+}
+
+.container_perf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+}
+
+.about_perf {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    text-align: justify;
+    margin-top: 1em;
+    background-color: #ebebeb;
+}

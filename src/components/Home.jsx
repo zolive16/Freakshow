@@ -1,18 +1,25 @@
 import React from "react";
-// import NavBar from "../components/Navbar";
-// import Footer from "./Footer";
 import "../styles/Home.css";
 
-const Home = () => {
+export default Home => {
 	return (
-		<div className="container">
 
-			{/* <img src=""></img> */}
-			{/* <h1></h1> */}
+		<div style={{
+			display: "flex",
+			justifyContent: "center",
+			height: "100vh",
+			paddingTop: "5em"
+		}}>
 
+			<iframe
+				style={{
+					width: "80%",
+					height: "80%"
+				}}
+				src="https://www.youtube.com/embed/FscbWks0klM?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
 
 		</div>
-	);
-}
 
-export default Home;
+
+	);
+};
