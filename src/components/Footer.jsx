@@ -10,12 +10,6 @@ const Footer = () => {
                     <Link to="/">
                         <li className="li_footer">Home</li>
                     </Link>
-                    <Link to="/performances">
-                        <li className="li_footer">Performances</li>
-                    </Link>
-                    <Link to="/price">
-                        <li className="li_footer">Tarifs</li>
-                    </Link>
                     <Link to="/about">
                         <li className="li_footer">A propos</li>
                     </Link>
@@ -29,3 +23,4 @@ const Footer = () => {
 }
 
 export default Footer;
+

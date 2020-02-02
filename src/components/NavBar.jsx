@@ -1,11 +1,13 @@
 import React from "react";
 import "../styles/NavBar.css";
 import { Link } from "react-router-dom";
+import images from "../assets/images.jpeg";
 
 const Navbar = () => {
     return (
         <div className="container">
             <div className="logo">FREAKSHOW</div>
+            <img src={images} alt="" className="image_nav" />
             <div className="menu">
                 <ul className="ul">
                     <Link to="/">

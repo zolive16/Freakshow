@@ -1,4 +1,6 @@
 .about {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -9,8 +11,11 @@
 }
 
 .title {
+    margin-top: 1em;
+    margin-bottom: 1em;
     font-family: 'Oswald', sans-serif;
-    font-size: 26px;
+    font-size: 32px;
+    text-transform: uppercase;
     line-height: 34px;
     color: #262626;
     height: 50px;
@@ -29,7 +34,8 @@
 }
 
 .about p {
-    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
     text-align: justify;
-    padding: 15px
+    padding: 16px
 }

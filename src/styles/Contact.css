@@ -10,9 +10,9 @@
     margin-top: 1em;
     font-weight: bolder;
     font-family: 'Oswald', sans-serif;
-    font-size: 26px;
+    font-size: 32px;
     text-align: center;
-
+    text-transform: uppercase;
 }
 
 .formPage-white-container {
@@ -65,13 +65,12 @@ textarea {
 
 .formPage-submit-btn {
     background: linear-gradient(90deg, #a8a8a8 0%, #4c4c52 100%);
-    border-radius: 38px;
     color: white;
     width: 20%;
     height: 2em;
     font-size: 1em;
     font-weight: bold;
-    border: 1px;
+    border: 1px grey groove;
     margin-top: 2em;
     margin-bottom: 2em;
     display: flex;

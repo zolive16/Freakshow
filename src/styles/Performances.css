@@ -24,3 +24,37 @@
     margin-top: 1em;
     background-color: #ebebeb;
 }
+
+.name {
+    margin-top: 1em;
+    font-weight: bold;
+    font-size: 2em;
+    color: red;
+    text-transform: uppercase;
+    padding-bottom: 1em;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: underline overline #FF3028;
+}
+
+.about {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 1em;
+}
+
+.image {
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+.price {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    border: 1px grey groove;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.price:hover {
+    background-color: red;
+    color: white;
+    border: 1px transparent groove;
+}
